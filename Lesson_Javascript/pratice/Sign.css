@@ -1,0 +1,25 @@
+.sign_up_page {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+  margin: 10rem, 10rem, 10rem;
+  background-color: rgb(66, 62, 62);
+  color: gold;
+}
+.user_email,
+.user_name,
+.user_password2,
+.user_password1,
+.signUp {
+  flex: row;
+  padding: 10px;
+  margin: 10px;
+}
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+  height: 30px;
+  width: 200px;
+}
